@@ -1,0 +1,10 @@
+### `brew-all.sh`
+Runs all the brew-penguin scripts in sequence:
+- Doctor → Update/Upgrade/Cleanup
+- Bundle Refresh
+- Quick Setup (if a Brewfile exists)
+- Startup Check
+- Security Check (Lynis + optional ClamAV)
+
+```bash
+./scripts/brew-all.sh
