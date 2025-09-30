@@ -1,3 +1,22 @@
 /node_modules/
 /lib/
 .bsb.lock
+# macOS junk
+.DS_Store
+
+# shell history
+.zsh_history
+.bash_history
+
+# env files
+.env
+*.env
+
+# editors
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# brew bundle cache
+Library/
